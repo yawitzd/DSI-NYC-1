@@ -37,9 +37,10 @@ This course is designed to give you the deep dive into the world of *Data Scienc
 
 1. [Curriculum](./curriculum/) - instructions, high level review, lessons, and labs; including content outlines, datasets, starter and solution code, and other resources.
 
-2. [Projects](./projects/) - baseline materials for our course projects; including datasets, detailed instructions, and starter code. 
+2. [Projects](./projects/) - baseline materials for our course projects; including datasets, detailed instructions, and starter code.
 
 3. [Resources](./resources) - supplementary resources, including syllabi & documented guidelines.
+
 ---
 
 #### ⑃ Forking and Collaborating
