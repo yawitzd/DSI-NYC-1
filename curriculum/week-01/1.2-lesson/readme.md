@@ -10,9 +10,6 @@ creator:
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to Git
 Week 1 | Lesson 1.2
 
-> Hook: write examples of filename-based versioning on the board.
-> Logistics: Increase type font on terminal
-
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
 - Use/explain git commands like init, add, commit, push, pull, and clone
@@ -53,7 +50,7 @@ Programmers use Git so that they can keep the history of all the changes to thei
 
 A codebase in Git is referred to as a **repository**, or **repo**, for short.
 
-![](./git_book_areas.png) 
+![](./git_book_areas.png)
 
 Git was created by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), the principal developer of Linux.
 
@@ -77,8 +74,6 @@ Even though there are lots of commands, on the course we will really only need a
 
 <a name="demo1"></a>
 ## Let's use Git - Codealong (15 mins)
-
-> The instructor will carry out several steps below while students watch. Then students catch up and carry out the next step.
 
 First, create and navigate into a new directory on your Home directory:
 
@@ -109,8 +104,6 @@ If we look at the contents of this empty folder using:
 ```bash
 ls -A
 ```
-
-> Check: what do you see?
 
 We should see that there is now a hidden folder called `.git` this is where all of the information about your repository is stored. There is no need for you to make any changes to this folder. You can control all the git flow using `git` commands.
 
@@ -212,7 +205,6 @@ git remote add origin git@github.com:github-name/DSI-projects.git
 
 You've now initialized a local repo in which to share your projects, and connected it with a remote repo on GitHub which you own.
 
-> Check: can you draw a diagram with the repos we're using so far? Add to this diagram the rest of the lesson.
 
 #### Pushing to Github
 
@@ -221,7 +213,6 @@ In order to send files from our local machine to our remote repository on Github
 ```bash
 git push origin master
 ```
-> Check: what do you see?
 
 This should fail due to new files on the remote repo. This is a common part of a collaborative project workflow: someone makes changes to the remote while you are working on the local version, so you need to bring your version up to date by fetching and merging the additions. After that you can push your own changes.
 
@@ -274,7 +265,7 @@ Now that everyone has their first repository on GitHub, let's fork and clone a r
 
 Forking gives you a copy of an existing repository -- you can make any changes you want without affecting the original. (You can also propose that the maintainer of the original merge your changes!)
 
-Cloning gives you a local copy of a remote repository. 
+Cloning gives you a local copy of a remote repository.
 
 Let's fork and then clone the DSI-NYC course repo, which will include all the specifications for your projects.
 

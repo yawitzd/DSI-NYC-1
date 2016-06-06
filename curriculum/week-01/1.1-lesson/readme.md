@@ -142,8 +142,6 @@ Notice, this path starts from `/` directory which is a root directory for every 
 
 ##### What is a relative path?
 
-> *Note:* Instructors – customize this lesson to demo with folders that you have present on your filesystem, or alternatively create a similar file structure on the fly.
-
 A relative path is a reference to a file or folder **relative** to the current position, or the present working directory(pwd). If we are in the folder `/a/b/` and we want to open the file that has the absolute path `/a/b/c/file.txt`, we can just type:
 
 ```bash
@@ -158,10 +156,8 @@ open ./c/file.txt
 
 At any time, we can also use the absolute path, by adding a slash to the beginning of the path. The absolute path is the same for a file or a folder regardless of the current working directory, but relative paths are different, depending on what directory we are in.  Directory structures are laid out like `directory/subdirectory/subsubdirectory`.
 
-> Demonstrate how e.g. `cd /Users/[username]/Documents works` from /Users, but not `cd Users/[username]/Documents`
 
 **Check:**  What is the difference between an absolute path and a relative path?
-> CFU: write a relative path example on the board; ask three whether it is relative or absolute.
 
 #### Navigating using the command prompt
 
