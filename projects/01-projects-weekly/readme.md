@@ -1,9 +1,10 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Data Science: Weekly Projects
 
-> There are 7 Weekly Projects in our Data Science Immersive, each building on top of skills learned previously to scaffold students' learning over the entire course.
+There are 7 Weekly Projects in the Data Science Immersive, each building on top of skills learned previously to scaffold learning over the entire course.
 
-Our weekly projects include objectives, requirements, starter-code, rubric, and suggested resources - all of which tie into the overall competencies for each unit.
+Our weekly projects include objectives, requirements, starter-code, rubric, and suggested resources - all of which tie into the overall competencies for each unit. Don't worry if you haven't seen all the material required for a project yet. You'll cover it in class before it's due.
 
+Weekly projects are introduced on Monday afternoons and due the following Wednesday at 9am, giving you 9 days to work through them.
 
 ### **[Project 1: SAT Scores + Summary Statistics](./project-01/readme.md)**
 
