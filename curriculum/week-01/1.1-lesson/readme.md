@@ -130,7 +130,14 @@ Typing `cd` - a command for "change directory" with no parameters takes us to ou
 cd
 ```
 
-If we type in `pwd` - a command for "print working directory" from that folder, we can see where we are in relation to the root directory. The `pwd` command will always give you the absolute path of your current location.
+If we type in `pwd` - a command for "print working directory" from that folder, we can see where we are in relation to the root directory. 
+
+```bash
+pwd
+```
+
+
+The `pwd` command will always give you the absolute path of your current location.
 
 An example of absolute path:
 
@@ -141,6 +148,8 @@ open /Users/Lucy/desktop/a/b/c/file.txt
 Notice, this path starts from `/` directory which is a root directory for every Linux/Unix machines.
 
 ##### What is a relative path?
+
+> *Note:* Instructors – customize this lesson to demo with folders that you have present on your filesystem, or alternatively create a similar file structure on the fly.
 
 A relative path is a reference to a file or folder **relative** to the current position, or the present working directory(pwd). If we are in the folder `/a/b/` and we want to open the file that has the absolute path `/a/b/c/file.txt`, we can just type:
 
@@ -156,8 +165,10 @@ open ./c/file.txt
 
 At any time, we can also use the absolute path, by adding a slash to the beginning of the path. The absolute path is the same for a file or a folder regardless of the current working directory, but relative paths are different, depending on what directory we are in.  Directory structures are laid out like `directory/subdirectory/subsubdirectory`.
 
+> Demonstrate how e.g. `cd /Users/[username]/Documents works` from /Users, but not `cd Users/[username]/Documents`
 
 **Check:**  What is the difference between an absolute path and a relative path?
+> CFU: write a relative path example on the board; ask three whether it is relative or absolute.
 
 #### Navigating using the command prompt
 
