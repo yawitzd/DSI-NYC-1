@@ -124,7 +124,7 @@ The **.append()** function will add an element to the end of a list. Use the fun
 ```python
 friends.append('Samwise')
 print(friends)
-['Curly', 'Moe', 'Larry', 'Tweedle Dee', 'Tweedle Dumb', 'Sam']
+['Curly', 'Moe', 'Larry', 'Tweedle Dee', 'Tweedle Dumb', 'Samwise']
 ```
 </details>
 
@@ -135,18 +135,18 @@ You can also combine lists by simply adding them together with the **+** operato
 ```python
 friends = friends + ['Bob', 'Joe']
 print(friends)
-['Curly', 'Moe', 'Larry', 'Tweedle Dee', 'Tweedle Dumb', 'Sam', 'Bob', 'Joe']
+['Curly', 'Moe', 'Larry', 'Tweedle Dee', 'Tweedle Dumb', 'Samwise', 'Bob', 'Joe']
 ```
 </details>
 
 The **.remove()** function can remove an specific element of a list, and the **del** command will remove the item of a list at a specific index. For example, **del my_list[2]** removes the 3rd element of my_list.
 
-<details><summary> L-6: remove 'Sam' from the list with the .remove() function
+<details><summary> L-6: remove 'Samwise' from the list with the .remove() function
 </summary>
 ```python
-friends.remove(3)
+friends.remove(5)
 print(friends)
-['Curly', 'Moe', 'Larry', 'Tweedle Dumb', 'Bob', 'Joe']
+['Curly', 'Moe', 'Larry', 'Tweedle Dee','Tweedle Dumb', 'Bob', 'Joe']
 ```
 </details>
 
