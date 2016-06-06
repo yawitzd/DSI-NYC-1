@@ -47,7 +47,11 @@ This course is designed to give you the deep dive into the world of *Data Scienc
 
 The structure of this repository provides a way for us to organize our information and resources.
 
-On the first day of class, you should [fork and clone](https://help.github.com/articles/fork-a-repo/) this repo locally, and add this page as the upstream master. We'll go over how to do this on the first day of class.
+On the first day of class, you should [fork and clone](https://help.github.com/articles/fork-a-repo/) this repo locally, and add this page as the upstream master:
+
+```bash
+$ git remote add upstream https://github.com/ga-students/DSI-NYC-1.git
+```
 
 Each morning, we'll update the repo with new materials and projects, so each morning you should update the repo locally by running:
 
