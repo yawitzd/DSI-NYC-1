@@ -1,5 +1,7 @@
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 1: SAT Scores + Summary Statistics
+#### Due Wednesday, June 15 9am
+Please submit a link to your answers on Github using [this form](https://docs.google.com/forms/d/1kK8gnThTlJGsD9ALeMY-M3oQDyphEC7_SsoJjhg51Sc/viewform). 
 
 ### Overview
 
