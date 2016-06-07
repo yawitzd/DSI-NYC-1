@@ -50,7 +50,6 @@ block is executed. This repeats until the condition becomes false.
 <a name="for loops"></a>
 ## Demo: for loops (25 mins)
 
-> Instructor Note: [demo code](https://github.com/generalassembly-studio/dsi-course-materials/blob/master/curriculum/04-lessons/week-01/2.3-lesson/code/w1-2.3-demo.ipynb)
 
 In Jupyter notebook type:
 ```bash

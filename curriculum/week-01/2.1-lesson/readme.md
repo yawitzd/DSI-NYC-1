@@ -52,7 +52,6 @@ The general Python syntax for a simple if statement is:
 If the condition is true, then do the indented statements. If the condition
 is not true, then skip the indented statements.
 
-> Instructor Note: code also in [demo code folder](https://github.com/generalassembly-studio/dsi-course-materials/blob/Week-1-Lesson-1.4/curriculum/04-lessons/week-01/1.4-lesson/code/Week%201%20Lesson%201.4%20%20demo%20code.ipynb)
 
 In iPython notebook type:
 ```bash
