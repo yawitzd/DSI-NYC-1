@@ -7,10 +7,10 @@ This is a summary of the materials provided for Week 1 of the Data Science Immer
 Session Time  | Day 1  | Day 2      | Day 3      | Day 4     | Day 5
 --------- | ---------  | ---------  | ---------  | --------- | ---------
 9 - 10    |[+Introducing the Data Science Workflow][1-1A]      | [+Morning Exercise][1-2A]                | [#Outcomes][1-3A]                       | [+Morning Exercise][1-4A]                    | [Reflection][1-5A]          
-10 - 11:30  |[Command Line][1-1B]         | [Python Control Flow][1-2B]              | [Lab: Programming Fundamentals][1-3B]        | [Intro to NumPy][1-4B]                   | [Lab: Stats practice with Python][1-5B]
-11:30 - 1  |[Intro to Git][1-1C]          | [Lab: Python function practice][1-2C]    | [Notebooks & CSV Files][1-3C]           | [Lab: Datasets and NumPy][1-4C]                           | [Dataviz Principles][1-5C]
-2 - 3:30  |[Python Data Types][1-1D]      | [Python Iteration][1-2D]                 | [][1-3D]                  | [Arrays & Functions][1-4D]      | [Plotting tools intro][1-5D]
-3:30 - 5  |[Python Collections][1-1E]     | [Lab: Python with GitHub][1-2E]          | [][1-3E]         | [Lab: NumPy][1-4E]                   | [Lab: Plotting][1-5E]
+10 - 11:30  |[Command Line][1-1B]         | [Python Control Flow][1-2B]              | [Lab: Programming Fundamentals][1-3B]        | [Intro to NumPy][1-3D]                   | [Lab: Stats practice with Python][1-4D]
+11:30 - 1  |[Intro to Git][1-1C]          | [Lab: Python function practice][1-2C]    | [Notebooks & CSV Files][1-3C]           | [Lab: Datasets and NumPy][1-3E]                           | [Dataviz Principles][1-4E]
+2 - 3:30  |[Python Data Types][1-1D]      | [Python Iteration][1-2D]                 | [][]                  | [Arrays & Functions][1-4B]      | [Plotting tools intro][1-5B]
+3:30 - 5  |[Python Collections][1-1E]     | [Lab: Python with GitHub][1-2E]          | [][]         | [Lab: NumPy][1-4C]                   | [Lab: Plotting][1-5C]
 
 
 
