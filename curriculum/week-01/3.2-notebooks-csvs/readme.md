@@ -127,7 +127,7 @@ Note that some characters, including whitespaces, have special representations t
 
 > Check: Slack a string with an unusual (but standardized) delimiter to a partner. Can they parse it?
 
-<a name="csv module"></a>
+<a name="csv"></a>
 ## Demo / Codealong: csv module (10 mins)
 
 Python has many modules to make common tasks easier: one example is its csv module. The csv module’s reader and writer objects read and write sequences, and can save you the trouble of manually parsing. We'll use "sales.txt" again to practice.
