@@ -1,12 +1,7 @@
 ---
 title: iPython Notebooks, Data Values, CSV Library
 duration: "1:5"
-<<<<<<< HEAD
-=======
-creator:
-    name: Lucy Williams
-    city: DC
->>>>>>> 3bb2befc08688b392dbfdf4a6e6ddf2b85ef87a7
+
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Jupyter Notebooks, CSV Library
@@ -42,7 +37,6 @@ Week 1 | Lesson 3.2
 <a name="introduction"></a>
 ## Introduction: (5 mins)
 
-<<<<<<< HEAD
 "Anaconda is a completely free Python distribution. It includes more than 400
 of the most popular Python packages for science, math, engineering, and data analysis."
 [Anaconda](https://www.continuum.io/downloads)
@@ -50,15 +44,6 @@ of the most popular Python packages for science, math, engineering, and data ana
 "The Jupyter Notebook is a web application that allows you to create and share
 documents that contain live code, equations, visualizations and explanatory text.
 Uses include: data cleaning and transformation, numerical simulation,
-=======
-"Anaconda is a completely free Python distribution. It includes more than 400 
-of the most popular Python packages for science, math, engineering, and data analysis."
-[Anaconda](https://www.continuum.io/downloads)
-
-"The Jupyter Notebook is a web application that allows you to create and share 
-documents that contain live code, equations, visualizations and explanatory text. 
-Uses include: data cleaning and transformation, numerical simulation, 
->>>>>>> 3bb2befc08688b392dbfdf4a6e6ddf2b85ef87a7
 statistical modeling, machine learning and much more."
 [Jupyter](http://jupyter.org/)
 
@@ -67,17 +52,10 @@ After distinguishing between the concepts of Python, a distribution, and an envi
 <a name="anaconda"></a>
 ## Demo: Anaconda (5 mins)
 
-<<<<<<< HEAD
 For those of you who haven't installed Anaconda yet. Please go to the
 [Anaconda website](https://www.continuum.io/downloads) and follow the install
 instructions for your OS. Any questions, please ask the instructor, TA, or a
 fellow student.
-=======
-For those of you who haven't installed Anaconda yet. Please go to the 
-[Anaconda website](https://www.continuum.io/downloads) and follow the install 
-instructions for your OS. Any questions, please ask the instructor, TA, or a 
-fellow student. 
->>>>>>> 3bb2befc08688b392dbfdf4a6e6ddf2b85ef87a7
 
 <a name="jupyter"></a>
 ## Demo: Jupyter Notebook (5 mins)
@@ -91,19 +69,11 @@ $ jupyter notebook
 <a name="code"></a>
 ## Demo / Codealong: Code vs. Markdown (10 mins)
 
-<<<<<<< HEAD
 Let's play around with Jupyter Notebook first to get a feel for it. Create a new notebook by clicking on the "New" dropdown and selecting under "Notebooks", "Python 2". Let's change the title right away to something like "Practice", so we can easily ID it later.
 
 The notebook starts off in the "Code" mode, which means that the cell is ready to accept any code we write. Let's toggle it to "Markdown" mode. Practice writing a cell of code and then a cell of Markdown and run it.
 
 Next, click through the dropdown menus: File, Edit, View, Insert, Cell, Kernel, and Help, just to get a look at what's available. Don't worry, you'll become more familiar with these through usage.
-=======
-Let's play around with Jupyter Notebook first to get a feel for it. Create a new notebook by clicking on the "New" dropdown and selecting under "Notebooks", "Python 2". Let's change the title right away to something like "Practice", so we can easily ID it later. 
-
-The notebook starts off in the "Code" mode, which means that the cell is ready to accept any code we write. Let's toggle it to "Markdown" mode. Practice writing a cell of code and then a cell of Markdown and run it.
-
-Next, click through the dropdown menus: File, Edit, View, Insert, Cell, Kernel, and Help, just to get a look at what's available. Don't worry, you'll become more familiar with these through usage. 
->>>>>>> 3bb2befc08688b392dbfdf4a6e6ddf2b85ef87a7
 
 You can find more about the [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) [online](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
@@ -162,11 +132,7 @@ Note that some characters, including whitespaces, have special representations t
 
 Python has many modules to make common tasks easier: one example is its csv module. The csv module’s reader and writer objects read and write sequences, and can save you the trouble of manually parsing. We'll use "sales.txt" again to practice.
 
-<<<<<<< HEAD
 In Jupyter notebook type:
-=======
-In Jupyter notebook type: 
->>>>>>> 3bb2befc08688b392dbfdf4a6e6ddf2b85ef87a7
 
 ```python
 import csv
@@ -179,11 +145,7 @@ with open('sales.txt', 'rU') as f:
 print ''
 ```
 
-<<<<<<< HEAD
 The output will be the contents of sales.csv file. We did a couple things differently here. We opened the file using a new syntax, `with ... as ...:`. A benefit of this is that you don't need to explicitly close the file when you're done.  Now, let's write to a csv file.
-=======
-The output will be the contents of sales.csv file. We did a couple things differently here. We opened the file using a new syntax, `with ... as ...:`. A benefit of this is that you don't need to explicitly close the file when you're done.  Now, let's write to a csv file. 
->>>>>>> 3bb2befc08688b392dbfdf4a6e6ddf2b85ef87a7
 
 ```python
 print 'Adding the following record: '
@@ -197,11 +159,7 @@ with open('sales.txt', 'a') as fp:
 
 ```
 
-<<<<<<< HEAD
 Now, let's see the file again, with the data you just added:
-=======
-Now, let's see the file again, with the data you just added: 
->>>>>>> 3bb2befc08688b392dbfdf4a6e6ddf2b85ef87a7
 
 ```python
 print 'The new data that was just added, can be seen on the last line: '
@@ -214,21 +172,12 @@ with open('sales.txt', 'rU') as f:
 
 <a name="ind-practice"></a>
 ## Independent Practice: Topic (30 minutes)
-<<<<<<< HEAD
 - Practice creating an Jupyter/iPython Notebook that uses both code and Markdown cells.
 Upload it to GitHub and check that it renders correctly in your browser.
-=======
-- Practice creating an Jupyter/iPython Notebook that uses both code and Markdown cells. 
-Upload it to GitHub and check that it renders correctly in your browser. 
->>>>>>> 3bb2befc08688b392dbfdf4a6e6ddf2b85ef87a7
 - Practice reading and writing csv files. Try reading this one to start: http://samplecsvs.s3.amazonaws.com/Sacramentorealestatetransactions.csv
 
 
 <a name="conclusion"></a>
 ## Conclusion (5 mins)
-<<<<<<< HEAD
 Today we were introduced to Anaconda, Jupyter, opening files, parsing text and using the CSV module to read and write csv files.
-=======
-Today we were introduced to Anaconda, Jupyter, opening files, parsing text and using the CSV module to read and write csv files. 
->>>>>>> 3bb2befc08688b392dbfdf4a6e6ddf2b85ef87a7
 Nice. Next lesson we'll be introduced to NumPy. Sounds like fun!
