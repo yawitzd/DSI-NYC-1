@@ -16,7 +16,7 @@ This morning, we're going to set up a simple blog with Github Pages. Github Page
 ### Getting started
 Here are the four basic steps to getting set up:
 
-1. Fork a blog layout you like (see below)
+1. Fork a blog layout you like. I recommend starting with [Jekyll Now](https://github.com/barryclark/jekyll-now)]
 2. Under settings, rename your fork ```yourusername.github.io```
 3. Clone the fork to your local machine:
 
@@ -36,7 +36,6 @@ $ git push origin master
 
 
 Some common Pages themes:
-- Barry Clark's [Jekyll Now](https://github.com/barryclark/jekyll-now) (simple, and a good place to get started)
 - [Hyde](https://github.com/poole/hyde) by MDO
 - [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) by Michael Rose
 - You can browse way more themes over at [Jekyll Themes](http://jekyllthemes.org/)
@@ -47,7 +46,7 @@ First, edit the config.yml file with your name and links to accounts. These will
 If you feel comfortable with HTML and CSS, you can adjust the formatting in the layouts folder.
 
 ### Your first post
-[](./images/first_post.png)
+[](./images/first-post.png)
 
 You'll write your posts in markdown, and save them to the posts folder. Title them with the post date, and make sure to tag the layout and post title, as in the image above.
 
