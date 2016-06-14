@@ -21,7 +21,7 @@ Here are the four basic steps to getting set up:
 3. Clone the fork to your local machine:
 
 ```bash
-$ cd ~/yourusername.github.io
+$ cd ~
 $ git clone https://github.com/yourusername/yourusername.github.io
 ```
 
