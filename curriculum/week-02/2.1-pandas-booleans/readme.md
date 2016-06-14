@@ -15,6 +15,12 @@ Week 2 | Lesson 2.1
 - Perform math functions using pandas.Series functions
 
 
+### INSTRUCTOR PREP
+*Before this lesson, instructors will need to:*
+- Read in / Review any dataset(s) & starter/solution code
+- Generate a brief slide deck
+
+
 ### LESSON GUIDE
 | TIMING  | TYPE  | TOPIC  |
 |:-:|---|---|
