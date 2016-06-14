@@ -22,7 +22,7 @@ Here are the four basic steps to getting set up:
 
 ```bash
 $ cd ~/yourusername.github.io
-$ git clone https://github.com/yourusername/yourusername.github.io.git
+$ git clone https://github.com/yourusername/yourusername.github.io
 ```
 
 Finally, "break the fork" from the original layout by deleting the repo on Github, creating a blank repo with the name ```yourusername.github.io``` , and pushing everything up to that new repo:
