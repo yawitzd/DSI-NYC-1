@@ -200,26 +200,26 @@ As you can see, the drug seems more effective on the average (the average measur
 
 What this means can be illustrated as follows. We put all the people in a table having two columns value and label (P for placebo and D for drug).
 
-value	label
-54	P
-51	P
-58	P
-44	P
-55	P
-52	P
-42	P
-47	P
-58	P
-46	P
-54	D
-73	D
-53	D
-70	D
-73	D
-68	D
-52	D
-65	D
-65	D
+value | label |
+54	| P |
+51	| P |
+58	| P |
+44	| P |
+55	| P |
+52	| P |
+42	| P |
+47	| P |
+58	| P |
+46	| P |
+54	| D |
+73	| D |
+53	| D |
+70	| D |
+73	| D |
+68	| D |
+52	| D |
+65	| D |
+65	| D |
 Shuffling the labels means that we will take the P's and D's and randomly distribute them among the patients. (Technically, we do a uniform random permutation of the label column.)
 
 This might give:
@@ -253,8 +253,9 @@ We can then look at the difference in the average P value vs. the average D valu
 
 With your table, design and code a computational way of either:
 
-1) Finding the probability of rolling a 6 one-third of the time on a fair die;
-2) Finding the probability of seeing a difference of 0.5192 between the verbal and math mean scores in your SAT dataset.
+1) Finding the probability of rolling a 6 at least one-third of the time on a fair die;
+
+2) Finding the probability of seeing a difference of at least 0.5192 between the mean verbal and math scores in your SAT dataset, assuming there is in truth no difference between these means.
 
 <a name="conclusion"></a>
 ## Conclusion (5 mins)
