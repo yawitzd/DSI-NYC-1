@@ -12,11 +12,10 @@ Let's practice writing a few recursive functions.
 ### 1. Factorials:
 Write a function ```factorial(n)``` that takes a single argument, and returns the factorial of that number.
 
-Recall that a factorial is defined as:
-```4! = 4 * 3 * 2 * 1
-```
-And therefore:
-```4! = 4 * 3!
+Recall that a factorial is defined as: ```4! = 4 * 3 * 2 * 1 ```, And therefore:
+
+```bash
+4! = 4 * 3!
 3! = 3 * 2!
 2! = 2 * 1
 ```
@@ -24,12 +23,14 @@ And therefore:
 ### 2. Fibonacci numbers:
 Write a function ```fib(n)``` that returns the nth index of the Fibonacci sequence:
 
-```fib(10)
+```python
+fib(10)
 > 55
 ```
 
 You should be able to print the first 10 numbers in the sequence by calling:
-```for i in range(1,11):
+```python
+for i in range(1,11):
       print fib(i)
 ```
 
@@ -44,7 +45,7 @@ Write a recursive function to generate the nth row of Pascal's Triangle.
 
 You should be able to print the entire triangle by calling:
 
-```
+```python
 for i in pascals_triangle(6):
         print(i)
 
@@ -57,6 +58,7 @@ for i in pascals_triangle(6):
 ```
 
 ## Pairs:
+
 ```bash
 ('Sam', 'Hudson')
 
