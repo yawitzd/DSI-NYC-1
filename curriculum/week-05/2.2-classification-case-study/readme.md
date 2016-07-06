@@ -160,4 +160,4 @@ We have reviewed few classification studies and explored some issues around data
 ### ADDITIONAL RESOURCES
 
 - [UCI Datasets](http://archive.ics.uci.edu/ml/datasets.html)
-- [Interpreting Case Studies](http://www.kellogg.northwestern.edu/execed/prepare_for_a_program/how_to_read_casestudy.aspx)
+- [Interpreting Case Studies](http://mbanotes.tumblr.com/post/53716640214/mba-tip-how-to-read-case-studies)
