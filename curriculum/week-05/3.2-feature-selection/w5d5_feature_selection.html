@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="creator" content=",name: Francesco Mosconi,city: SF">
+<meta name="duration" content="&quot;1:25&quot;"><style>body {
+  width: 45em;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 30px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><title>Feature Selection</title><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head><body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div><article class="markdown-body"><script type="text/javascript" async="" src="./fs_files/MathJax.js">
+</script>
+
+<h1 id="feature-selection"><img alt="" src="./fs_files/logo-9f88ae6c9c3871690e33280fcf557f33.png"> Feature Selection</h1>
+<p>Week 5 | Lesson 3.2</p>
+<h3 id="learning-objectives"><a name="user-content-learning-objectives" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#learning-objectives" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>LEARNING OBJECTIVES</h3>
+<p><em>After this lesson, you will be able to:</em><br>
+- Describe what feature selection means and why it is important<br>
+- Evaluate several techniques for feature selection<br>
+- Use L1 and L2 regularization for feature selection</p>
+<h3 id="student-pre-work"><a name="user-content-student-pre-work" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#student-pre-work" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>STUDENT PRE-WORK</h3>
+<p><em>Before this lesson, you should already be able to:</em><br>
+- Perform regression<br>
+- Perform classification<br>
+- Understand L1 and L2 loss functions</p>
+<h3 id="instructor-prep"><a name="user-content-instructor-prep" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#instructor-prep" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>INSTRUCTOR PREP</h3>
+<p><em>Before this lesson, instructors will need to:</em><br>
+- Read in / Review any dataset(s) &amp; starter/solution code<br>
+- Generate a brief slide deck<br>
+- Prepare any specific materials<br>
+- Provide students with additional resources</p>
+<h3 id="lesson-guide"><a name="user-content-lesson-guide" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#lesson-guide" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>LESSON GUIDE</h3>
+<table>
+<thead>
+<tr>
+<th align="center">TIMING</th>
+<th>TYPE</th>
+<th>TOPIC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">5 mins</td>
+<td><a href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#opening">Opening</a></td>
+<td>Opening</td>
+</tr>
+<tr>
+<td align="center">25 mins</td>
+<td><a href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#introduction">Introduction</a></td>
+<td>Introduction: Feature Selection</td>
+</tr>
+<tr>
+<td align="center">25 mins</td>
+<td><a href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#demo">Demo</a></td>
+<td>Demo: Feature importance in Logistic Regression</td>
+</tr>
+<tr>
+<td align="center">10 mins</td>
+<td><a href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#guided-practice">Guided-practice</a></td>
+<td>Guided Practice: Visualizing feature importance</td>
+</tr>
+<tr>
+<td align="center">20 mins</td>
+<td><a href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#ind-practice">Ind-practice</a></td>
+<td>Independent Practice: Topic</td>
+</tr>
+<tr>
+<td align="center">5 mins</td>
+<td><a href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#conclusion">Conclusion</a></td>
+<td>Conclusion</td>
+</tr>
+</tbody>
+</table>
+<p><a name="opening"></a></p>
+<h2 id="opening-5-mins"><a name="user-content-opening-5-mins" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#opening-5-mins" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Opening (5 mins)</h2>
+<p>Feature selection is an important part of the model building process and there are several ways to approach it.</p>
+<p><strong>Check:</strong> Can anyone guess why we may want to select features?</p>
+<p><a name="introduction"></a></p>
+<h2 id="introduction-feature-selection-25-mins"><a name="user-content-introduction-feature-selection-25-mins" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#introduction-feature-selection-25-mins" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Introduction: Feature Selection (25 mins)</h2>
+<p>In machine learning we usually start from a vector of features that encapsulate different aspects of our data and we use these to train a model that predicts a target variable.<br>
+Many of the datasets we have encountered so far were in tabular format, and features were well defined already. This is not usually the case.</p>
+<p><strong>Check:</strong> Can you give a couple of examples of data where features must be extracted?</p>
+<p>For example, in the case of text data, a data-point usually corresponds to a document or a sentence, and we have to use feature extraction techniques to map each document to a vector of numbers. Similarly, to classify images, we must first represent them as a vector of numbers.</p>
+<p>As we have seen with the <code>CountVectorizer</code> for text data, feature extraction can result in a very large number of features, some of which may have more predictive power than others.</p>
+<table>
+<thead>
+<tr>
+<th>Text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The cat is on the table</td>
+</tr>
+<tr>
+<td>The table is blue</td>
+</tr>
+<tr>
+<td>The sky is blue</td>
+</tr>
+<tr>
+<td>…</td>
+</tr>
+</tbody>
+</table>
+<p>In the above example the word <code>the</code> probably has zero predictive power.</p>
+<p>In a different scenario, the tabular data may be a result of a database dump where irrelevant columns were not removed.</p>
+<table>
+<thead>
+<tr>
+<th>CustomerID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ALFKI</td>
+</tr>
+<tr>
+<td>ANATR</td>
+</tr>
+<tr>
+<td>ANTON</td>
+</tr>
+<tr>
+<td>…</td>
+</tr>
+</tbody>
+</table>
+<p><em>Feature selection</em> is a way to reduce the number of features to simplify the model while retaining its predictive power.</p>
+<h3 id="bottom-up-feature-selection"><a name="user-content-bottom-up-feature-selection" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#bottom-up-feature-selection" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Bottom up feature selection</h3>
+<p>One way to select features is to first find the single feature that gives the highest score and then iteratively add the other features one by one, each time checking how much the score improves. The first features will probably improve the score a lot, while score improvement will typically be smaller and smaller the more features we add. In other words, adding complexity to the model will yield diminishing returns.</p>
+<p>One can then set a criteria to only retain the first N features or the first features that achieve 90% as good a score as all the features.</p>
+<h3 id="top-down-feature-selection"><a name="user-content-top-down-feature-selection" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#top-down-feature-selection" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Top Down feature selection</h3>
+<p>Another way to select features is to impose a global constraint on the model. For example, in the case of text vectorization, we could impose that a feature needs to have a document frequency higher than a certain threshold to be considered relevant.</p>
+<h3 id="random-shuffling"><a name="user-content-random-shuffling" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#random-shuffling" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Random shuffling</h3>
+<p>There are other ways to check if a feature has any predictive power, such as <em>random shuffling</em>. First, we calculate the score of the model, then we randomize the values along that column. If the feature has any predictive power, this should yield a worse score. On the other hand, if the feature has no predictive power at all, this will result in no change in the score and thus we can toss that feature.</p>
+<p><strong>Check:</strong> Can anyone restate or recall these definitions in their own words?</p>
+<h3 id="regularization"><a name="user-content-regularization" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#regularization" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Regularization</h3>
+<p>Regularization is an example of a top-down technique that works with parametric models (such as Logistic Regressions and Support Vector Machines). It imposes a global constraint on the values of the parameters that define the model. The regularized model is found solving a new minimization problem where two terms are present: the term defining the model and the term defining the regularization.</p>
+<p>In general, a regularization term <span class="MathJax_Preview" style="color: inherit;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" role="math" style="width: 2.086em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.721em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.669em 1001.67em 2.867em -999.997em); top: -2.497em; left: 0.003em;"><span class="mrow" id="MathJax-Span-2"><span class="mi" id="MathJax-Span-3" style="font-family: STIXGeneral-Italic;">R</span><span class="mo" id="MathJax-Span-4" style="font-family: STIXGeneral-Regular;">(</span><span class="mi" id="MathJax-Span-5" style="font-family: STIXGeneral-Italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.159em;"></span></span><span class="mo" id="MathJax-Span-6" style="font-family: STIXGeneral-Regular;">)</span></span><span style="display: inline-block; width: 0px; height: 2.503em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.309em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 1.191em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>R</mi><mo stretchy="false">(</mo><mi>f</mi><mo stretchy="false">)</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-1">R(f)</script>is introduced to a general loss function:</p>
+<p><span class="MathJax_Preview" style="color: inherit;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;munder&gt;&lt;mo movablelimits=&quot;true&quot; form=&quot;prefix&quot;&gt;min&lt;/mo&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/munder&gt;&lt;munderover&gt;&lt;mo&gt;&amp;#x2211;&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/mrow&gt;&lt;/munderover&gt;&lt;mi&gt;V&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x005E;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;msub&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x005E;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;&amp;#x03BB;&lt;/mi&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-7" role="math" style="width: 13.284em; display: inline-block;"><span style="display: inline-block; position: relative; width: 11.044em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(0.732em 1010.99em 3.909em -999.997em); top: -2.497em; left: 0.003em;"><span class="mrow" id="MathJax-Span-8"><span class="munderover" id="MathJax-Span-9"><span style="display: inline-block; position: relative; width: 1.565em; height: 0px;"><span style="position: absolute; clip: rect(3.18em 1001.57em 4.169em -999.997em); top: -4.008em; left: 0.003em;"><span class="mo" id="MathJax-Span-10" style="font-family: STIXGeneral-Regular;">min</span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span><span style="position: absolute; clip: rect(3.388em 1000.32em 4.43em -999.997em); top: -3.331em; left: 0.628em;"><span class="mi" id="MathJax-Span-11" style="font-size: 70.7%; font-family: STIXGeneral-Italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.107em;"></span></span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span></span></span><span class="munderover" id="MathJax-Span-12" style="padding-left: 0.211em;"><span style="display: inline-block; position: relative; width: 1.305em; height: 0px;"><span style="position: absolute; clip: rect(2.867em 1001.2em 4.638em -999.997em); top: -4.008em; left: 0.003em;"><span class="mo" id="MathJax-Span-13" style="font-family: STIXSizeOneSym; vertical-align: -0.518em;">∑</span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span><span style="position: absolute; clip: rect(3.388em 1000.94em 4.273em -999.997em); top: -2.862em; left: 0.107em;"><span class="texatom" id="MathJax-Span-14"><span class="mrow" id="MathJax-Span-15"><span class="mi" id="MathJax-Span-16" style="font-size: 70.7%; font-family: STIXGeneral-Italic;">i</span><span class="mo" id="MathJax-Span-17" style="font-size: 70.7%; font-family: STIXGeneral-Regular;">=</span><span class="mn" id="MathJax-Span-18" style="font-size: 70.7%; font-family: STIXGeneral-Regular;">1</span></span></span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span><span style="position: absolute; clip: rect(3.44em 1000.32em 4.169em -999.997em); top: -5.206em; left: 0.471em;"><span class="texatom" id="MathJax-Span-19"><span class="mrow" id="MathJax-Span-20"><span class="mi" id="MathJax-Span-21" style="font-size: 70.7%; font-family: STIXGeneral-Italic;">n</span></span></span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span></span></span><span class="mi" id="MathJax-Span-22" style="font-family: STIXGeneral-Italic; padding-left: 0.211em;">V<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.055em;"></span></span><span class="mo" id="MathJax-Span-23" style="font-family: STIXGeneral-Regular;">(</span><span class="mi" id="MathJax-Span-24" style="font-family: STIXGeneral-Italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.159em;"></span></span><span class="mo" id="MathJax-Span-25" style="font-family: STIXGeneral-Regular;">(</span><span class="msubsup" id="MathJax-Span-26"><span style="display: inline-block; position: relative; width: 0.732em; height: 0px;"><span style="position: absolute; clip: rect(3.128em 1000.47em 4.169em -999.997em); top: -4.008em; left: 0.003em;"><span class="texatom" id="MathJax-Span-27"><span class="mrow" id="MathJax-Span-28"><span class="munderover" id="MathJax-Span-29"><span style="display: inline-block; position: relative; width: 0.471em; height: 0px;"><span style="position: absolute; clip: rect(3.44em 1000.47em 4.169em -999.997em); top: -4.008em; left: 0.003em;"><span class="mi" id="MathJax-Span-30" style="font-family: STIXGeneral-Italic;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span><span style="position: absolute; top: -4.06em; left: 0.107em;"><span style="height: 0.003em; vertical-align: 0.003em; width: 0.367em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-31" style="font-family: STIXGeneral-Regular;">̂&nbsp;<span style="height: 0.003em; vertical-align: 0.003em; margin-left: -0.258em;"></span></span><span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span><span style="position: absolute; top: -3.852em; left: 0.471em;"><span class="mi" id="MathJax-Span-32" style="font-size: 70.7%; font-family: STIXGeneral-Italic;">i</span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span></span></span><span class="mo" id="MathJax-Span-33" style="font-family: STIXGeneral-Regular;">)</span><span class="mo" id="MathJax-Span-34" style="font-family: STIXGeneral-Regular;">,</span><span class="msubsup" id="MathJax-Span-35" style="padding-left: 0.211em;"><span style="display: inline-block; position: relative; width: 0.732em; height: 0px;"><span style="position: absolute; clip: rect(3.128em 1000.42em 4.378em -999.997em); top: -4.008em; left: 0.003em;"><span class="texatom" id="MathJax-Span-36"><span class="mrow" id="MathJax-Span-37"><span class="munderover" id="MathJax-Span-38"><span style="display: inline-block; position: relative; width: 0.471em; height: 0px;"><span style="position: absolute; clip: rect(3.44em 1000.42em 4.378em -999.997em); top: -4.008em; left: 0.003em;"><span class="mi" id="MathJax-Span-39" style="font-family: STIXGeneral-Italic;">y</span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span><span style="position: absolute; top: -4.06em; left: 0.055em;"><span style="height: 0.003em; vertical-align: 0.003em; width: 0.367em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-40" style="font-family: STIXGeneral-Regular;">̂&nbsp;<span style="height: 0.003em; vertical-align: 0.003em; margin-left: -0.258em;"></span></span><span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span><span style="position: absolute; top: -3.747em; left: 0.471em;"><span class="mi" id="MathJax-Span-41" style="font-size: 70.7%; font-family: STIXGeneral-Italic;">i</span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span></span></span><span class="mo" id="MathJax-Span-42" style="font-family: STIXGeneral-Regular;">)</span><span class="mo" id="MathJax-Span-43" style="font-family: STIXGeneral-Regular; padding-left: 0.263em;">+</span><span class="mi" id="MathJax-Span-44" style="font-family: STIXGeneral-Italic; padding-left: 0.263em;">λ</span><span class="mi" id="MathJax-Span-45" style="font-family: STIXGeneral-Italic;">R</span><span class="mo" id="MathJax-Span-46" style="font-family: STIXGeneral-Regular;">(</span><span class="mi" id="MathJax-Span-47" style="font-family: STIXGeneral-Italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.159em;"></span></span><span class="mo" id="MathJax-Span-48" style="font-family: STIXGeneral-Regular;">)</span></span><span style="display: inline-block; width: 0px; height: 2.503em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -1.559em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 3.566em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><munder><mo movablelimits="true" form="prefix">min</mo><mi>f</mi></munder><munderover><mo>∑</mo><mrow class="MJX-TeXAtom-ORD"><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mrow class="MJX-TeXAtom-ORD"><mi>n</mi></mrow></munderover><mi>V</mi><mo stretchy="false">(</mo><mi>f</mi><mo stretchy="false">(</mo><msub><mrow class="MJX-TeXAtom-ORD"><mover><mi>x</mi><mo stretchy="false">^</mo></mover></mrow><mi>i</mi></msub><mo stretchy="false">)</mo><mo>,</mo><msub><mrow class="MJX-TeXAtom-ORD"><mover><mi>y</mi><mo stretchy="false">^</mo></mover></mrow><mi>i</mi></msub><mo stretchy="false">)</mo><mo>+</mo><mi>λ</mi><mi>R</mi><mo stretchy="false">(</mo><mi>f</mi><mo stretchy="false">)</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-2">\min_f \sum_{i=1}^{n} V(f(\hat x_i), \hat y_i) + \lambda R(f)</script></p>
+<p>for a loss function <span class="MathJax_Preview" style="color: inherit;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;V&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-49" role="math" style="width: 0.836em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.68em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.669em 1000.68em 2.659em -999.997em); top: -2.497em; left: 0.003em;"><span class="mrow" id="MathJax-Span-50"><span class="mi" id="MathJax-Span-51" style="font-family: STIXGeneral-Italic;">V<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.055em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.503em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>V</mi></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-3">V</script> that describes the cost of predicting <span class="MathJax_Preview" style="color: inherit;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-52" role="math" style="width: 1.878em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.565em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.669em 1001.51em 2.867em -999.997em); top: -2.497em; left: 0.003em;"><span class="mrow" id="MathJax-Span-53"><span class="mi" id="MathJax-Span-54" style="font-family: STIXGeneral-Italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.159em;"></span></span><span class="mo" id="MathJax-Span-55" style="font-family: STIXGeneral-Regular;">(</span><span class="mi" id="MathJax-Span-56" style="font-family: STIXGeneral-Italic;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mo" id="MathJax-Span-57" style="font-family: STIXGeneral-Regular;">)</span></span><span style="display: inline-block; width: 0px; height: 2.503em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.309em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 1.191em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-4">f(x)</script> when the label is <span class="MathJax_Preview" style="color: inherit;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-58" role="math" style="width: 0.576em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.471em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.93em 1000.47em 2.867em -999.997em); top: -2.497em; left: 0.003em;"><span class="mrow" id="MathJax-Span-59"><span class="mi" id="MathJax-Span-60" style="font-family: STIXGeneral-Italic;">y</span></span><span style="display: inline-block; width: 0px; height: 2.503em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.309em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 0.878em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>y</mi></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-5">y</script>, such as the square loss or hinge loss, and for the term <span class="MathJax_Preview" style="color: inherit;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;&amp;#x03BB;&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-61" role="math" style="width: 0.576em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.471em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.669em 1000.42em 2.659em -999.997em); top: -2.497em; left: 0.003em;"><span class="mrow" id="MathJax-Span-62"><span class="mi" id="MathJax-Span-63" style="font-family: STIXGeneral-Italic;">λ</span></span><span style="display: inline-block; width: 0px; height: 2.503em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>λ</mi></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-6">\lambda</script> which controls the importance of the regularization term. <span class="MathJax_Preview" style="color: inherit;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-7-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-64" role="math" style="width: 2.086em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.721em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.669em 1001.67em 2.867em -999.997em); top: -2.497em; left: 0.003em;"><span class="mrow" id="MathJax-Span-65"><span class="mi" id="MathJax-Span-66" style="font-family: STIXGeneral-Italic;">R</span><span class="mo" id="MathJax-Span-67" style="font-family: STIXGeneral-Regular;">(</span><span class="mi" id="MathJax-Span-68" style="font-family: STIXGeneral-Italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.159em;"></span></span><span class="mo" id="MathJax-Span-69" style="font-family: STIXGeneral-Regular;">)</span></span><span style="display: inline-block; width: 0px; height: 2.503em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.309em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 1.191em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>R</mi><mo stretchy="false">(</mo><mi>f</mi><mo stretchy="false">)</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-7">R(f)</script> is typically a penalty on the complexity of <span class="MathJax_Preview" style="color: inherit;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-8-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-70" role="math" style="width: 0.576em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.471em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.669em 1000.47em 2.867em -999.997em); top: -2.497em; left: 0.003em;"><span class="mrow" id="MathJax-Span-71"><span class="mi" id="MathJax-Span-72" style="font-family: STIXGeneral-Italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.159em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.503em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.309em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 1.191em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>f</mi></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-8">f</script>, such as restrictions for smoothness or bounds on the vector space norm. In practice, regularization<br>
+reduces the number of features by imposing a penalty on the number of features.</p>
+<h4 id="l1-and-l2-regularization"><a name="user-content-l1-and-l2-regularization" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#l1-and-l2-regularization" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>l1 and l2 regularization</h4>
+<p>For the case where our model $f$ is parametric (e.g. in linear models), we can express the regularization term as a <em>norm</em> on the parameters. Depending on the kind of norm chosen for the parameters regularization can be:</p>
+<ul>
+<li>l1 or Lasso regularization:<br>
+<span class="MathJax_Preview" style="color: inherit;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-9-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;&amp;#x221D;&lt;/mo&gt;&lt;mo&gt;&amp;#x2211;&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;|&lt;/mo&gt;&lt;/mrow&gt;&lt;msub&gt;&lt;mi&gt;&amp;#x03B2;&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;|&lt;/mo&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-73" role="math" style="width: 6.878em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.732em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.773em 1005.68em 3.544em -999.997em); top: -2.914em; left: 0.003em;"><span class="mrow" id="MathJax-Span-74"><span class="mi" id="MathJax-Span-75" style="font-family: STIXGeneral-Italic;">R</span><span class="mo" id="MathJax-Span-76" style="font-family: STIXGeneral-Regular;">(</span><span class="mi" id="MathJax-Span-77" style="font-family: STIXGeneral-Italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.159em;"></span></span><span class="mo" id="MathJax-Span-78" style="font-family: STIXGeneral-Regular;">)</span><span class="mo" id="MathJax-Span-79" style="font-family: STIXGeneral-Regular; padding-left: 0.315em;">∝</span><span class="mo" id="MathJax-Span-80" style="font-family: STIXSizeOneSym; vertical-align: -0.518em; padding-left: 0.315em;">∑</span><span class="texatom" id="MathJax-Span-81" style="padding-left: 0.211em;"><span class="mrow" id="MathJax-Span-82"><span class="texatom" id="MathJax-Span-83"><span class="mrow" id="MathJax-Span-84"><span class="mo" id="MathJax-Span-85" style="font-family: STIXGeneral-Regular;">|</span></span></span><span class="msubsup" id="MathJax-Span-86"><span style="display: inline-block; position: relative; width: 0.784em; height: 0px;"><span style="position: absolute; clip: rect(3.18em 1000.52em 4.378em -999.997em); top: -4.008em; left: 0.003em;"><span class="mi" id="MathJax-Span-87" style="font-family: STIXGeneral-Italic;">β<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span><span style="position: absolute; top: -3.852em; left: 0.523em;"><span class="mi" id="MathJax-Span-88" style="font-size: 70.7%; font-family: STIXGeneral-Italic;">i</span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span></span></span><span class="texatom" id="MathJax-Span-89"><span class="mrow" id="MathJax-Span-90"><span class="mo" id="MathJax-Span-91" style="font-family: STIXGeneral-Regular;">|</span></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.919em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.622em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 1.878em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>R</mi><mo stretchy="false">(</mo><mi>f</mi><mo stretchy="false">)</mo><mo>∝</mo><mo>∑</mo><mrow class="MJX-TeXAtom-ORD"><mrow class="MJX-TeXAtom-ORD"><mo stretchy="false">|</mo></mrow><msub><mi>β</mi><mi>i</mi></msub><mrow class="MJX-TeXAtom-ORD"><mo stretchy="false">|</mo></mrow></mrow></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-9"> R(f) \propto \sum{|\beta_i|}</script></li>
+<li>l2 or Ridge regularization:<br>
+<span class="MathJax_Preview" style="color: inherit;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-10-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;&amp;#x221D;&lt;/mo&gt;&lt;mo&gt;&amp;#x2211;&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;msubsup&gt;&lt;mi&gt;&amp;#x03B2;&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msubsup&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-92" role="math" style="width: 6.669em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.523em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.773em 1005.52em 3.544em -999.997em); top: -2.914em; left: 0.003em;"><span class="mrow" id="MathJax-Span-93"><span class="mi" id="MathJax-Span-94" style="font-family: STIXGeneral-Italic;">R</span><span class="mo" id="MathJax-Span-95" style="font-family: STIXGeneral-Regular;">(</span><span class="mi" id="MathJax-Span-96" style="font-family: STIXGeneral-Italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.159em;"></span></span><span class="mo" id="MathJax-Span-97" style="font-family: STIXGeneral-Regular;">)</span><span class="mo" id="MathJax-Span-98" style="font-family: STIXGeneral-Regular; padding-left: 0.315em;">∝</span><span class="mo" id="MathJax-Span-99" style="font-family: STIXSizeOneSym; vertical-align: -0.518em; padding-left: 0.315em;">∑</span><span class="texatom" id="MathJax-Span-100" style="padding-left: 0.211em;"><span class="mrow" id="MathJax-Span-101"><span class="msubsup" id="MathJax-Span-102"><span style="display: inline-block; position: relative; width: 0.992em; height: 0px;"><span style="position: absolute; clip: rect(3.18em 1000.52em 4.378em -999.997em); top: -4.008em; left: 0.003em;"><span class="mi" id="MathJax-Span-103" style="font-family: STIXGeneral-Italic;">β<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span><span style="position: absolute; clip: rect(3.388em 1000.42em 4.169em -999.997em); top: -4.372em; left: 0.576em;"><span class="mn" id="MathJax-Span-104" style="font-size: 70.7%; font-family: STIXGeneral-Regular;">2</span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span><span style="position: absolute; clip: rect(3.388em 1000.26em 4.169em -999.997em); top: -3.695em; left: 0.523em;"><span class="mi" id="MathJax-Span-105" style="font-size: 70.7%; font-family: STIXGeneral-Italic;">i</span><span style="display: inline-block; width: 0px; height: 4.013em;"></span></span></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.919em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.622em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 1.878em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>R</mi><mo stretchy="false">(</mo><mi>f</mi><mo stretchy="false">)</mo><mo>∝</mo><mo>∑</mo><mrow class="MJX-TeXAtom-ORD"><msubsup><mi>β</mi><mi>i</mi><mn>2</mn></msubsup></mrow></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-10"> R(f) \propto \sum{\beta_i^2}</script></li>
+</ul>
+<p>where $\beta_i$ are the parameters of the model.</p>
+<h3 id="feature-importance"><a name="user-content-feature-importance" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#feature-importance" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Feature importance</h3>
+<p>Some models offer an intrinsic way of evaluating feature importance. For example, as we will see next week, <em>Decision Trees</em> have a way to assess how much each feature is contributing to the overall prediction.</p>
+<p>Logistic Regression also offers an intrinsic way of assessing feature importance. In fact, since the Logistic Regression model is linear in the features, the size of each coefficient represents the impact a unit change in that feature has on the overall model. In order to interpret this as feature importance, we need to make sure that features are normalized to have the same scale, otherwise a unit change in two different feature could actually imply a very different change.</p>
+<p><a name="demo"></a></p>
+<h2 id="demo-feature-importance-in-logistic-regression-25-mins"><a name="user-content-demo-feature-importance-in-logistic-regression-25-mins" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#demo-feature-importance-in-logistic-regression-25-mins" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Demo: Feature importance in Logistic Regression (25 mins)</h2>
+<p>As we have said, the coefficients in logistic regression can be interpreted as feature importance if the data is normalized. We will show this on the Iris dataset.</p>
+<p>First load the data.</p>
+<pre><code class="python">import pandas as pd
+import numpy as np
+from sklearn.linear_model import LogisticRegression
+from sklearn.datasets import load_iris
+
+iris = load_iris()
+
+X = iris.data
+y = iris.target
+</code></pre>
+
+<pre><code class="python">iris.feature_names
+</code></pre>
+
+<pre><code>['sepal length (cm)',
+ 'sepal width (cm)',
+ 'petal length (cm)',
+ 'petal width (cm)']
+</code></pre>
+<p>Then let’s initialize a logistic regression model:</p>
+<pre><code class="python">model = LogisticRegression()
+model.fit(X, y)
+</code></pre>
+
+<pre><code>LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+</code></pre>
+<p>The <code>LogisticRegression</code> class exposes an attribute called <code>coef_</code>. Let’s have a look at it:</p>
+<pre><code class="python">model.coef_
+</code></pre>
+
+<pre><code>array([[ 0.41498833,  1.46129739, -2.26214118, -1.0290951 ],
+       [ 0.41663969, -1.60083319,  0.57765763, -1.38553843],
+       [-1.70752515, -1.53426834,  2.47097168,  2.55538211]])
+</code></pre>
+<p>According to the documentation this is:</p>
+<pre><code>coef_ : array, shape (n_classes, n_features)
+    Coefficient of the features in the decision function.
+</code></pre>
+<p>Let’s display it in a nicer way:</p>
+<pre><code class="python">coeffs = pd.DataFrame(model.coef_, columns = iris.feature_names, index =iris.target_names)
+coeffs
+</code></pre>
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>sepal length (cm)</th>
+      <th>sepal width (cm)</th>
+      <th>petal length (cm)</th>
+      <th>petal width (cm)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>setosa</th>
+      <td>0.414988</td>
+      <td>1.461297</td>
+      <td>-2.262141</td>
+      <td>-1.029095</td>
+    </tr>
+    <tr>
+      <th>versicolor</th>
+      <td>0.416640</td>
+      <td>-1.600833</td>
+      <td>0.577658</td>
+      <td>-1.385538</td>
+    </tr>
+    <tr>
+      <th>virginica</th>
+      <td>-1.707525</td>
+      <td>-1.534268</td>
+      <td>2.470972</td>
+      <td>2.555382</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p><strong>Check:</strong> Can we conclude that <code>petal length (cm)</code> is the most significant feature to identify <code>setosa</code> ?</p>
+<p>Remember Scaling:</p>
+<pre><code class="python">from sklearn.preprocessing import StandardScaler
+X_norm =  StandardScaler().fit_transform(X)
+
+model.fit(X_norm, y)
+
+coeffs = pd.DataFrame(model.coef_, columns = iris.feature_names, index =iris.target_names)
+coeffs
+</code></pre>
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>sepal length (cm)</th>
+      <th>sepal width (cm)</th>
+      <th>petal length (cm)</th>
+      <th>petal width (cm)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>setosa</th>
+      <td>-0.810166</td>
+      <td>1.393699</td>
+      <td>-1.687386</td>
+      <td>-1.518991</td>
+    </tr>
+    <tr>
+      <th>versicolor</th>
+      <td>0.130380</td>
+      <td>-1.246338</td>
+      <td>0.789195</td>
+      <td>-0.889440</td>
+    </tr>
+    <tr>
+      <th>virginica</th>
+      <td>0.012990</td>
+      <td>-0.144535</td>
+      <td>1.863173</td>
+      <td>2.698873</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>Notice that normalization did change the sign and magnitude of the logistic regression coefficients. Also notice that the <code>LogisticRegression</code> class has a <code>penalty</code> parameter that allows us to choose between <code>l1</code> and <code>l2</code> regularization. Notice that some of the solvers only support <code>l2</code> regularization.</p>
+<pre><code class="python">model
+</code></pre>
+
+<pre><code>LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+</code></pre>
+<p><strong>Check:</strong> Try changing the penalty to <code>l1</code>, do the coefficients change?</p>
+<p><strong>Check:</strong> Check score with <code>cross_val_score</code> and select best model</p>
+<p><a name="guided-practice"></a></p>
+<h2 id="guided-practice-visualizing-feature-importance-10-mins"><a name="user-content-guided-practice-visualizing-feature-importance-10-mins" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#guided-practice-visualizing-feature-importance-10-mins" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Guided Practice: Visualizing feature importance (10 mins)</h2>
+<p>In some cases we may want to visualize feature importance in a plot. One way to do this is to display the matrix of coefficients with a color scale. We can do this using Matplotlib as follows:</p>
+<pre><code class="python"># first import matplotlib
+% matplotlib inline
+import matplotlib.pyplot as plt
+
+# then create a figure and a plot
+fig = plt.figure()
+ax = fig.add_subplot(111)
+
+# display the matrix
+cax = ax.matshow(coeffs)
+</code></pre>
+
+<p><img alt="png" src="./fs_files/output_24_0.png"></p>
+<p>This is nice, but what if we want to make it a bit clearer to the user?</p>
+<h4 id="exercise-add-colorbar-and-ticks"><a name="user-content-exercise-add-colorbar-and-ticks" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#exercise-add-colorbar-and-ticks" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Exercise: Add colorbar and ticks</h4>
+<p>Find a way to add colorbars and ticks, it should look like this:</p>
+<p><img alt="coefficients" src="./fs_files/coefficients.png"></p>
+<p><a name="ind-practice"></a></p>
+<h2 id="independent-practice-topic-20-minutes"><a name="user-content-independent-practice-topic-20-minutes" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#independent-practice-topic-20-minutes" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Independent Practice: Topic (20 minutes)</h2>
+<p>Scikit-learn offers several other regularization methods. The following exercise is in pairs:</p>
+<p>Go to the <a href="http://scikit-learn.org/stable/modules/feature_selection.html">documentation page</a>, pick one method and read about it for 10 minutes.</p>
+<p>Try to answer the following questions:</p>
+<ul>
+<li>Is it top-down or bottom-up?</li>
+<li>Does it work for both regression and classification?</li>
+<li>Can it be used in a pipeline?</li>
+</ul>
+<p>In the last 10 minutes explain your findings to the class.</p>
+<p><a name="conclusion"></a></p>
+<h2 id="conclusion-5-mins"><a name="user-content-conclusion-5-mins" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#conclusion-5-mins" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Conclusion (5 mins)</h2>
+<p>Today we have learned about many ways to select features by importance. This will be particularly useful when we deal with a large number of features.</p>
+<h3 id="additional-resources"><a name="user-content-additional-resources" href="file:///var/folders/n9/m2bxqxcs3n34hbk5srmd0p140000gn/T/59.html#additional-resources" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>ADDITIONAL RESOURCES</h3>
+<ul>
+<li><a href="http://scikit-learn.org/stable/modules/feature_selection.html">Scikit Learn Documentation on Feature Selection</a></li>
+<li><a href="http://matplotlib.org/api/pyplot_api.html">Matplotlib documentation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Regularization_(mathematics)">Wikipedia page on regularization</a></li>
+</ul></article><div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: STIXSizeOneSym, sans-serif;"></div></div></body></html>
