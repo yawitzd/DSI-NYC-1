@@ -24,7 +24,7 @@ First, here's your partner for this morning:
 ('Tamara', 'Michael')
 ```
 
-## 1. Maximum sum of three elements
+## 1. Maximum product of three elements
 Write a function that takes a list of integers and returns the largest product of three elements.
 
 Slack your solution to the class when you have a function that works.
