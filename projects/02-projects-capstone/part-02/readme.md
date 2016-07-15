@@ -18,7 +18,7 @@ Your work must:
 - Outline proposed methods and models
 - Define risks & assumptions
 - Revise initial goals & success criteria, as needed
-- Create local database
+- Create local SQL database
 - Describe data cleaning/munging techniques
 - Create a data dictionary (describing the contents of each variable)
 - Perform & summarize EDA
