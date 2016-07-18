@@ -18,9 +18,9 @@ Your work must:
 - Outline proposed methods and models
 - Define risks & assumptions
 - Revise initial goals & success criteria, as needed
-- Create local database
+- Create local SQL database
 - Describe data cleaning/munging techniques
-- Create a data dictionary
+- Create a data dictionary (describing the contents of each variable)
 - Perform & summarize EDA
 
 - ***Bonus:***
@@ -34,8 +34,7 @@ Your work must:
 
  - Materials must be submitted in a clearly labeled Jupyter notebook, including:
   - Markdown writeups, code, and visualizations
- - Materials must be submitted via a Github PR to the instructor's repo.
- - Materials must be submitted by the end of Week 8.
+ - Materials must be submitted to Github by the end of Week 9.
 
 ---
 
