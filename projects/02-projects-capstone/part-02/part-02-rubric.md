@@ -20,11 +20,9 @@ Acceptable performance for these standards is based on how well you've performed
 | Identify: Articulate Problem Statement/Specific goals & success criteria | | | | |
 | Identify: Outline proposed methods & models | | | | *Bonus: What additional datasets would help?* |
 | Parse: Identify risks & assumptions | | | | |
-| Parse: Create local PostgreSQL database | | | | n/a |
 | Parse: Query, Sort, & Clean Data | | | | n/a |
 | Parse: Create a Data Dictionary | | | | n/a |
 | Mine: Perform & summarize EDA | | | | n/a |
-| *Bonus! Refine: Explain how you intend to tune & evaluate your results* | | | | |
 | *Bonus! Present: Create blog post summary* | | | | |
 
 - Notes:
@@ -32,7 +30,7 @@ Acceptable performance for these standards is based on how well you've performed
  ---
 
 ## Score:
-Based on the requirements, you can earn a maximum of  **23**  points on this project. Your score is: **#**
+Based on the requirements, you can earn a maximum of  **17**  points on this project. Your score is: **#**
 
 - Remember, your total score is helpful as a gauge of how well you met the project requirements, but use the individual standards and instructor feedback to help iterate and improve on your projects!
 
