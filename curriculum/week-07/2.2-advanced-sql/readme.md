@@ -41,14 +41,6 @@ Week 7 | Lesson 1.4
 <a name="opening"></a>
 ## Opening (5 mins)
 
-> 
-- Review pre-work, projects, or exit ticket, if applicable
-- Review current lesson objectives
-- Reference general course content or topics (e.g. code or concepts that have been used across multiple lessons)
-- Include Hook / Real-world Relevance (why the content from this lesson is useful or important)
-
-> **Check:** Ask students to define, explain, or recall any **general** prior concepts or tools.
-
 <a name="introduction"></a>
 ## Introduction: Databases! (5 mins)
 
@@ -184,7 +176,6 @@ WHERE AGE >= 30 ;
 <a name="ind-practice"></a>
 ## Independent Practice: Topic (30 minutes)
 
-> Instructor Note: This activity should be done independently.
 
 Now that we've learned about some advanced SQL statements, let's put your skills to the test! We're going to be revisiting the wine dataset as a [database table](./assets/datasets/wine.sql) on which we'll execute our queries.
 
