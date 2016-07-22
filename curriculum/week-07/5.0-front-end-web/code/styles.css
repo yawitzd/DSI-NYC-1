@@ -1,0 +1,51 @@
+body {
+	background: #90C3D4;
+}
+
+b {
+	font-weight: bold;
+	font-family: georgia;
+	color: #422C2F;
+}
+
+
+h1 {
+	font: 24pt "arial";
+	color: #683A5E;
+	text-align: left;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	text-transform: lowercase;
+	font-weight: bold;
+}
+
+
+#stripe {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 10px;
+	background: #A46582;
+	border-bottom: 1px #A46582 solid;
+}
+
+blockquote {
+    color: #2E2F73;
+    font: 14px/22px normal helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 3px solid #2E2F73;
+}
+
+cite {
+    color: #2E2F73;
+		font-weight: italics
+    font: 14px/22px normal helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 15px;
+}
