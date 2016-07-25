@@ -45,7 +45,7 @@ Here's your partner for this exercise. There are some hints below you can use to
 
 `cat` is a linux prompt that prints out the contents of a file. Try calling `cat` on input.txt from your command line.
 
-## Command 2: Redirection > and Pipe |
+## Command 2: Redirection `>` and Pipe `|`
 
 You can take text from your command line and write it to a new file using ```>```. Try writing this from any folder:
 
