@@ -75,5 +75,5 @@ Write your word counts to a file called output.txt
 Go back to the [sat_scores file](assets/sat_scores.csv) from Project 1. Write a program `get_total.py` that calculates the sum of the math and verbal scores for each state and writes the output to a new csv. You should be able to run this by calling:
 
 ```bash
-cat sat_scores.csv | get_total.py > sat_scores2.csv
+cat sat_scores.csv | ./get_total.py > sat_scores2.csv
 ```
