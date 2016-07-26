@@ -1,5 +1,5 @@
 ---
-title: Command Control
+title: Command Control 2
 duration: "1:00"
 ---
 
@@ -24,13 +24,13 @@ Let's do some more with Python and .py files. You shouldn't even need to open ju
 
 ### Pair Program #1: Files calling files
 
-Create a file `temperature.py`. Write two files in that function: `def celsius_to_farenheit(x):` and `def farenheit_to_celcius(x)` that convert between units. Save and close the file.
+Create a file `temperature.py`. Write two functions in that file: `def celsius_to_farenheit(x):` and `def farenheit_to_celcius(x)` that convert between units. Save and close the file.
 
-Run Python from the command line. You can now import that file (like you do for every other Python package!). Run your programs by calling them from `temperature`:
+Run `python` from the command line. You can now import that file (like you do for every other Python package!). Run your programs by calling them from `temperature`:
 
 ```Python
->> import temperature
->> print temperature.farenheit_to_celcius(95)
+>>> import temperature
+>>> print temperature.farenheit_to_celcius(95)
 35
 ```
 
@@ -48,7 +48,7 @@ Go back to your `counter.py` file from yesterday to generate word counts on this
 $curl http://textfiles.com/stories/elveshoe.txt | ./counter.py > output.txt
 ```
 
-Now, rewrite your workflow so you clean the text (encode, remove punctuation, convert to lowercase) in a function defined in a new file.
+**Now, rewrite your workflow so you clean the text (encode, remove punctuation, convert to lowercase) in a function defined in a new file.**
 
 For example, create a file `my_cleaner.py` that contains the function `def clean_text(x)`
 
