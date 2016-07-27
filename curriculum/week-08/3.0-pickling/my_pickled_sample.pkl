@@ -1,0 +1,12 @@
+(lp0
+S'This'
+p1
+aS'list'
+p2
+aS'is'
+p3
+aS'too'
+p4
+aS'big'
+p5
+a.
