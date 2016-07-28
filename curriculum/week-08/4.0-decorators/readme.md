@@ -3,7 +3,7 @@ title: Decorator, Information Please
 duration: "1:00"
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Morning Exercise: Python Decorators, Map, and Reduce
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Morning Exercise: Python Decorators
 Week 8 | Exercise 4.0
 
 You want to do more with Python? OK. Grab a partner, and see if you can do these exercises:
