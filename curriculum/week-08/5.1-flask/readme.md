@@ -32,9 +32,9 @@ if __name__ == '__main__':
 ```
 
 Three things happen here:
--initialize the app
--use built-in decorators to define what happens on a page
--launch the app
+- initialize the app
+- use built-in decorators to define what happens on a page
+- launch the app
 
 Now launch the file from your command line:
 
@@ -153,7 +153,7 @@ Play with the parameters in the URL. You should get the predicted probability of
 ## Make a simplle webform.
 Well that was exciting. But it doesn't look very nice. Let's create a simple webform to read in the inputs.
 
-Create a file `page.html`. You can copy-paste this one:
+Create a file `page.html`. 
 ```html
 <!doctype html>
 <html>
