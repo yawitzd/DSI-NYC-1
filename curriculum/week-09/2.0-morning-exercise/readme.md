@@ -1,26 +1,26 @@
 ---
-title: Game time
+title: Quick API
 duration: "1:00"
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Pair Program: Let's Play Tic Tac Toe
-Week 9 | Exercise 5.0
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Pair Program: Quick Model and Flask App
+Week 9 | Exercise 2.0
 
-Write a Python program that lets you play tic tac toe against a computer.
+Using the [speed dating dataset](data/speed_dating_user_attributes.csv) from last week, decide with your partner on a variable you want to predict. Then, build a model to predict it. Finally, create a way to communicate your results by building a Flask application.
 
 
 ```bash
-('Hudson', 'Katty')
+('Tamara', 'Tim')
 
-('Tim', 'Tucker')
+('Michael', 'Phillippa')
 
-('Peter', 'Michael')
-
-('Phillippa', 'Tamara')
-
-('Lydia', 'Rebecca')
+('Tucker', 'Hudson')
 
 ('Sam', 'Kelly')
+
+('Katty', 'Lydia')
+
+('Peter', 'Rebecca')
 
 
 ```
@@ -36,5 +36,6 @@ Here are some things you may
 - What happens when the game is over? Does the program stop, or does it prompt you for another game?
 
 ## Challenge
-1. Add formatting to your displays.
-2. Make your AI smarter.
+1. Optimize the model. Gridsearch its parameters. Compare it to other models.
+2. Customize the input and output of the app.
+2. Export a matplotlib plot to the page. [Here](https://gist.github.com/wilsaj/862153)'s an example.
