@@ -1,5 +1,6 @@
 ## How to host your Flask app on Amazon amazonaws
-After you get your Flask app running locally, you can put it online. You can launch your Flask app on an AWS EC2 server. But you'll need to follow a few extra steps:
+After you get your Flask app running locally, you can put it online. You can launch your Flask app on an AWS EC2 server. But you'll need to follow a few extra steps: <br>
+
 1. Launch an AWS box that has Anaconda installed. [Here is a tutorial](https://docs.continuum.io/anaconda/amazon-aws) for how to do that. The free version is slow, but should be enough to run a simple application.
 2. Make sure to open HTTP port 80. This [stack overflow answer](http://stackoverflow.com/questions/5004159/opening-port-80-ec2-amazon-web-services) can help do that if you need.
 3. Change your ~/.ssh/config file to look like this, changing out HostName and the .pem file:
