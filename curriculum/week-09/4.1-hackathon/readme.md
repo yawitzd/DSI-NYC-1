@@ -14,10 +14,10 @@ You and your team will take a dataset and build an application (or website) that
 | DSI Students | WDI Students | Dataset |  
 |--------------|--------------|---------|
 | Phillippa, Michael | Mike Shamah, Rahul, Trevor | [MTA's subway turnstile data](http://web.mta.info/developers/turnstile.html) |  
-| Rebecca, Hudson | Fizal, David, Suprit, Sasha | [Data to forecast weekly sales at Wal-Mart](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data) |  
+| Rebecca, Hudson | Fizal, David, Suprit, Sasha | [Uber Trips](https://github.com/fivethirtyeight/uber-tlc-foil-response) |  
 | Kelly, Tim | James, Ramzi, Chris, Salwa | [AirBnB's user session data](http://databits.io/challenges/airbnb-user-pathways-challenge) |  
 | Sam, Lydia | Celeste, Aliaksander, Erin, John | [Taxi Trips in NYC](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml) |  
-| Tucker, Peter | Matt, Arlen, Mike Werbowsky, Chandler | [Uber Trips](https://github.com/fivethirtyeight/uber-tlc-foil-response) |  
+| Tucker, Peter | Matt, Arlen, Mike Werbowsky, Chandler | [Data to forecast weekly sales at Wal-Mart](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data) |  
 | Tamara, Katty | Mike Stenzler, Luis, Heidi, Joe | [Congressional Voting Records](http://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records) |
 
 ## Approach
@@ -34,7 +34,7 @@ You and your team will take a dataset and build an application (or website) that
 - If your team decides to use Flask, discuss where your predictions will route and what parameters they'll need.
 - If use a predictive model, start very simple (predict random numbers) to get things working. Then, get iteratively more complex once the infrastructure is in place (engineer your features, try different models, tune hyperparameters...).
 - Do your data cleaning, EDA, and model tuning in a Jupyter notebook. Export the fitted model as a pickled file to save on processing time.
-- Deploy on AWS! [Here's a tutorial](aws-flask-tutorial.md) for that. 
+- Deploy on AWS! [Here's a tutorial](aws-flask-tutorial.md) for that.
 
 ## Tips for WDI Students
 - Split up the workflow.
