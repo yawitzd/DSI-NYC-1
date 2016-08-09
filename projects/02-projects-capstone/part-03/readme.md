@@ -29,5 +29,5 @@ Your work must:
 - Preliminary analysis must be submitted in a clearly labeled and easy-to-read Jupyter notebook. Think of it as a hybrid blog post and Jupyter notebook. This notebook should be different from the one where you've done your analysis so far, and should be designed to walk someone through your work. Make sure to include:
  - Markdown cells, code, and visualizations
  - Remove any excess code. 
- - Don't print outputs (e.g. dataframes, BeautifulSoup) longer than 5 lines. 
+ - Don't print outputs longer than 5 lines (e.g. dataframes, BeautifulSoup). 
 - Materials should be submitted by Thursday of Week 10; 1:1 meetings will occur during Week 11.
