@@ -40,7 +40,7 @@ Make this program better, and more random.
 
 First, write a function to generate random pairs.
 
-Then, generalize it. When you call the program, have it prompt you for a group size. Return random groups of that size. Include prompts for calling on one person and generating a random order of all students.
+Then, generalize it. When you call the program, have it prompt you for a group size. Return random groups of that size. Include prompts for (a) calling on one person and (b) generating a random order of all students.
 
 ### Bonus
 Write a program that generates a file 'student_pairs.txt' that lists unique classroom partner assignments. The list should be long enough that everyone is paired with everyone else by the end.
