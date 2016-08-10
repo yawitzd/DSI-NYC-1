@@ -71,7 +71,7 @@ For the first 5 minutes discuss the following questions within your group:
 
 - what aspects of their solution would not have been possible with traditional Dbs
 
-At the end of 5 minutes one person from each group will summarize their conclusions to the class.
+At the end of 5 minutes each group will summarize their conclusions to the class.
 
 <a name="guided-practice_2"></a>
 ## Case 1: Implementation (10 min)
