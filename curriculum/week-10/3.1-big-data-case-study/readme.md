@@ -48,10 +48,10 @@ In this class we will work in groups and review 2 case studies of use of Big Dat
 ## Case 1: TV Show (10 min)
 
 Today's lecture is going to be highly interactive. Let's form 4 groups. These groups will be called:
-- Blue Team ```('Peter', 'Michael', 'Sam')```
-- Red Team ```('Katty', 'Lydia', 'Phillippa')```
-- Yellow Team ```('Tamara', 'Tucker', 'Hudson')```
-- White Team ```('Rebecca', 'Kelly', 'Tim')```
+- Blue Team ```('Tim', 'Phillippa', 'Sam')```
+- Red Team ```('Katty', 'Lydia', 'Tucker')```
+- Yellow Team ```('Tamara', 'Peter', 'Kelly')```
+- White Team ```('Rebecca', 'Michael', 'Hudson')```
 
 
 Each group will use the next 10 minutes to read this article: [TV show uses data to change the world](https://gigaom.com/2012/08/11/how-indias-favorite-tv-show-uses-data-to-change-the-world/).
