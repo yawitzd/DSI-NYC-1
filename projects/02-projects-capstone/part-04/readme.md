@@ -38,36 +38,13 @@ Your work should document findings for peers and technical stakeholders, includi
 
 - Materials must be submitted in a clearly labeled Jupyter notebook, including:
  - Markdown writeups, code, and visualizations
-- Materials must be submitted via a Github PR to the instructor's repo.
+- Materials must be submitted via a Github.
 - Materials must be submitted by the end of Week 11.
 
 ---
-
-### Suggested Ways to Get Started
-
-- Don’t hesitate to write throwaway code to solve short term problems
-- Read the docs for whatever technologies you use. Most of the time, there is a tutorial that you can follow, but not always, and learning to read documentation is crucial to your success!
-- Write pseudocode before you write actual code. Thinking through the logic of something helps.  
-- Document **everything**.
 
 ### Useful Resources
 
 - [How to Report Statistics to Technical Audiences](http://abacus.bates.edu/~ganderso/biology/resources/writing/HTWstats.html)
 - [Data Science Employers Value Research Reports](https://www.quora.com/What-is-a-good-way-for-a-data-scientist-to-construct-an-online-portfolio)
 
----
-
-### Project Feedback + Evaluation
-
-[Attached here is a complete rubric for this project.](./part-04-rubric.md)
-
-Your instructors will score each of your technical requirements using the scale below:
-
-    Score | Expectations
-    ----- | ------------
-    **0** | _Incomplete._
-    **1** | _Does not meet expectations._
-    **2** | _Meets expectations, good job!_
-    **3** | _Exceeds expectations, you wonderful creature, you!_
-
- This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
