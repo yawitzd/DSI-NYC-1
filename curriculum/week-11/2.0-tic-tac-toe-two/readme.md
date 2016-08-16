@@ -7,6 +7,18 @@ type: morning exercise
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Pair Program: Game Time
 Week 11 | Exercise 2.0
 
+### Pairs
+('Hudson', 'Lydia')
+
+('Phillippa', 'Rebecca')
+
+('Michael', 'Tucker')
+
+('Katty', 'Sam')
+
+('Tamara', 'Kelly')
+
+('Tim', 'Peter')
 
 ### Tic Tac Toe
 Revisit your tic tac toe program from a few weeks ago. You can either edit your code or write a new one.
