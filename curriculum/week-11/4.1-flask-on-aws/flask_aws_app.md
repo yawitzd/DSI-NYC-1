@@ -335,9 +335,9 @@ Here we also employed some conditional logic. This is how string templating work
 <a name="tie"></a>
 ## Demo/Guided Practice: Tying It All Together (10 mins)
 
-Now that we have all the pieces, go ahead and go to the page for our app.
+Now that we have all the pieces, go ahead and go to the page for our app in your browser.
 
-```<aws_address>/myapp```
+/myapp
 
 Fill in the form. Try different values like 2, 7, 10.
 
