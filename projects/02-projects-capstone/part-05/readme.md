@@ -45,6 +45,8 @@ Specifically, the content of your presentation presentation should:
 
 - A slide deck (or interactive demo) presentation of 10-15 minutes, including:
   - Requirements listed above + relevant visuals
+- A slide deck presentation of 4 minutes for a non-technical audience. 
+- A polished, 30-second elevator pitch
 - Presentations should be prepared for the end of Week 12.
 
 ---
