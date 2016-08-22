@@ -27,7 +27,7 @@ You input is two lines. On the first line are two numbers, `N` (the number of to
 1 12 5 111 200 1000 10
 ```
 
-Your sample output should be an integer: the number of toys Mark can buy. In this case, `K`.
+Your sample output should be an integer: the number of toys Mark can buy. In this case, `4`.
 
 
 ### Bonus
